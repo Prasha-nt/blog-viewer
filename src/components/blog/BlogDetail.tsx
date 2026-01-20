@@ -2,6 +2,8 @@ import { useBlogById } from "@/hooks/useBlogById"
 import { useDeleteBlog } from "@/hooks/useDeleteBlog"
 import { BlogDetailSkeleton } from "./BlogDetailSkeleton"
 import { Button } from "@/components/ui/button"
+import React from "react"
+
 
 interface BlogDetailProps {
   blogId: number | null

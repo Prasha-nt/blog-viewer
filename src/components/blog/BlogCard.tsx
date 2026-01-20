@@ -1,6 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Blog } from "@/types/blog"
 import { Calendar } from "lucide-react"
+import React from "react"
+
 
 interface BlogCardProps {
   blog: Blog
